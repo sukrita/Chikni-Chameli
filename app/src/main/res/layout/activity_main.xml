@@ -11,7 +11,20 @@
         android:layout_height="wrap_content"
         android:text="Hello World!"
         android:textSize="16sp"  
+        android:padding="15dp"      
+        android:layout_marginTop="20dp"      
 
+        android:textColor="@color/colorAccent"      
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello sukrita!"
+        android:textSize="16sp"  
         android:padding="15dp"      
         android:layout_marginTop="20dp"      
 
